@@ -4,7 +4,7 @@ import Logger from 'bet-logger';
 import helper from 'bet-helper';
 
 
-const log = debug(`BET:api-chrome:${seed}`);
+const log = new Logger(`BET:api-chrome:${seed}`);
 let chromeApi;
 
 export default chromeApi = {
